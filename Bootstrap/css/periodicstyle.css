@@ -1,9 +1,14 @@
-* {
-    background-color: rgb(209,169,118);
+body {
+    background: rgb(64, 147, 180);
 }
-table {
+.table1 {
     width: 100%;
-    margin-top: 10%;
+}
+.title {
+    font-size: 3rem;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 h1 {
     position: absolute;
@@ -341,31 +346,23 @@ tr, td{
     transition: .6s;
     box-shadow: 0 0 15px #9E6615, 0 0 15px #9E6615, 0 0 15px #9E6615;
 }
+/* Space for GoE */
+.none {
+    padding: 20px;
+    border-style: none;
+}
 /* Group of Elements */
-.elementgroup h3{
-    font-size: 260%;
-    letter-spacing: 2px;
-    font-family: monospace;
+tfoot{
+    margin-top: 10%;
 }
-.elementgroup .column1{
-    position: absolute;
-    left: 10%;
-    bottom: -50%;
-    background: none;
+tfoot td{
+    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border-style: none;
+    text-align: justify;
 }
-.elementgroup .column2{
-    position: absolute;
-    left: 35%;
-    bottom: -41%;
-    background: none;
-}
-.elementgroup .column3{
-    position: absolute;
-    left: 70%;
-    bottom: -41%;
-    background: none;
-}
-.alkali {
+td .alkali{
     color: rgb(0, 184, 197);
 }
 .metalloids{
